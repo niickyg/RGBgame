@@ -4,7 +4,14 @@ var pickedColor = pickColor();
 var colorDisplay = document.getElementById("colorDisplay");
 var messageDis = document.querySelector("#message")
 var h1 = document.querySelector("h1");
+var resetButton = document.querySelector("#reset");
+
+
 colorDisplay.textContent = pickedColor;
+
+resetButton.addEventListener("click", function(){
+alert("works");
+});
 
 for (i = 0; i<squares.length; i++){
     //add initial colors to squares
@@ -61,5 +68,4 @@ function randomColor(){
 
    return "rgb(" + r + ", " + g + ", " + b + ")";
 }
-
 //this is a simple change to for practice reinitilizing a repository
