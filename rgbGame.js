@@ -4,6 +4,9 @@ var pickedColor = pickColor();
 var colorDisplay = document.getElementById("colorDisplay");
 var messageDis = document.querySelector("#message")
 var h1 = document.querySelector("h1");
+var body = document.querySelector("body");
+
+body.classList.add("bodyC");
 
 colorDisplay.textContent = pickedColor;
 
