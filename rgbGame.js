@@ -10,7 +10,18 @@ var resetButton = document.querySelector("#reset");
 colorDisplay.textContent = pickedColor;
 
 resetButton.addEventListener("click", function(){
-alert("works");
+    //generate new colors
+    colors = generateRandomColors(6);
+    //pick new random color from array
+    pickedColor = pickColor();
+    //change display to the new picked color
+    colorDisplay.textContent = pickedColor;
+    //change colors of squares
+    for (i = 0; i < squares.length; i ++){
+        squares[i].style.backgroundColor = colors [i];
+    }
+    h1.style.backgroundColor = "#232323"
+
 });
 
 for (i = 0; i<squares.length; i++){
