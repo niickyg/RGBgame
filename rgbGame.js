@@ -72,11 +72,10 @@ function generateRandomColors(num){
 function randomColor(){
    //red green and blue all need 0 to 255
    var r = Math.floor(Math.random() * 256);
-
    var g = Math.floor(Math.random() * 256);
-
    var b = Math.floor(Math.random() * 256);
-
    return "rgb(" + r + ", " + g + ", " + b + ")";
 }
-//this is a simple change to for practice reinitilizing a repository
+
+
+// HI SARAHHHHHH!!!!!!!!
