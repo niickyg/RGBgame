@@ -77,5 +77,4 @@ function randomColor(){
    return "rgb(" + r + ", " + g + ", " + b + ")";
 }
 
-
-// HI SARAHHHHHH!!!!!!!!
+// this is practice for git branch 2s
